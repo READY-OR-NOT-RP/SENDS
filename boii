@@ -1,0 +1,20 @@
+CREATE TABLE IF NOT EXISTS `user_accounts` (
+    `id` int NOT NULL AUTO_INCREMENT,
+    `name` varchar(255) NOT NULL,
+    `unique_id` varchar(255) NOT NULL,
+    `rank` varchar(255) NOT NULL DEFAULT 'civ',
+    `vip` int(1) NOT NULL DEFAULT 0,
+    `priority` int(11) NOT NULL DEFAULT 0,
+    `character_slots` int(11) NOT NULL DEFAULT 2,
+    `license` varchar(255) NOT NULL,
+    `discord` varchar(255),
+    `tokens` json NOT NULL,
+    `ip` varchar(255) NOT NULL,
+    `banned` boolean DEFAULT false,
+    `banned_by` varchar(255) NOT NULL DEFAULT 'auto_ban',
+    `reason` text DEFAULT NULL,
+    `created` timestamp NOT NULL DEFAULT current_timestamp(),
+    PRIMARY KEY (`unique_id`),
+    KEY (`license`),
+    KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;
