@@ -1,0 +1,10 @@
+replace QBCore = nil with: QBCore = exports['qb-core']:GetCoreObject()
+
+You can use the provide statement in the fxmanifest.lua file. It will automatically replace the previous statement, so there’s no need to rename it. For example, you can use provide 'qb-inventory' to specify that your resource provides the qb-inventory functionality.
+
+https://docs.fivem.net/docs/scripting-reference/resource-manifest/resource-manifest/ 
+
+provide
+Marks the current resource as a replacement for the specified resource. This means it'll start instead of the specified resource, if another resource requires it, and will act as if it is said resource if started.
+
+provide 'mysql-async'
