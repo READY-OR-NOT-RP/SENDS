@@ -1,0 +1,27 @@
+fx_version 'cerulean'
+game 'gta5'
+
+author 'Your Name'
+description 'LSPD Police EUP Streaming Resource'
+version '1.0.0'
+
+-- Define the files to stream for LSPD
+files {
+    'stream/*.ytd'
+}
+
+
+
+
+fx_version 'cerulean'
+game 'gta5'
+
+author 'Your Name'
+description 'BCSO Police EUP Streaming Resource'
+version '1.0.0'
+
+-- Define the files to stream for BCSO
+files {
+    'stream/*.ytd'
+}
+
