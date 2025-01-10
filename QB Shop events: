@@ -20,3 +20,18 @@ TriggerClientEvent("inventory:client:OpenInventory", src, {
     slots = shopData.slots,
     items = items,
 })
+
+
+----add it in inventory server side under 11 line-----
+local function CreateShop(shopId, shopLabel, shopItems)
+    ShopItems[shopId] = {
+        label = shopLabel,
+        items = shopItems
+    }
+end
+
+exports('CreateShop', CreateShop)
+
+RegisterNetEvent('inventory:server:CreateShop', function(shopId, shopLabel, shopItems)
+    CreateShop(shopId, shopLabel, shopItems)
+end)
