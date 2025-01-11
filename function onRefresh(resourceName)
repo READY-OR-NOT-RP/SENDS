@@ -1,0 +1,100 @@
+function onRefresh(resourceName)
+if GetCurrentResourceName() == resourceName then
+exports.vip_cars:ICH(false)
+end
+end
+AddEventHandler('onClientResourceStart', function (resourceName) onRefresh(resourceName) end)
+AddEventHandler('onClientResourceStop', function (resourceName) onRefresh(resourceName) end)
+
+local QBCore = exports['qb-core']:GetCoreObject()
+local creatingCharacter = false
+local cam = -1
+local headingToCam = GetEntityHeading(PlayerPedId())
+local camOffset = 2
+local customCamLocation = nil
+local PlayerData = {}
+local previousSkinData = {}
+local zoneName = nil
+local inZone = false
+local removeWear = false
+
+local skinData = {
+    ["face"] = {
+        item = 0,
+        texture = 0,
+        defaultItem = 0,
+        defaultTexture = 0,
+    },
+    ["face2"] = {
+        item = 0,
+        texture = 0,
+        defaultItem = 0,
+        defaultTexture = 0,
+    },
+    ["facemix"] = {
+        skinMix = 0,
+        shapeMix = 0,
+        defaultSkinMix = 0.0,
+        defaultShapeMix = 0.0,
+    },
+    ["pants"] = {
+        item = 0,
+        texture = 0,
+        defaultItem = 0,
+        defaultTexture = 0,
+    },
+    ["hair"] = {
+        item = 0,
+        texture = 0,
+        defaultItem = 0,
+        defaultTexture = 0,
+    },
+    ["eyebrows"] = {
+        item = -1,
+        texture = 1,
+        defaultItem = -1,
+        defaultTexture = 1,
+    },
+    ["beard"] = {
+        item = -1,
+        texture = 1,
+        defaultItem = -1,
+        defaultTexture = 1,
+    },
+    ["blush"] = {
+        item = -1,
+        texture = 1,
+        defaultItem = -1,
+        defaultTexture = 1,
+    },
+    ["lipstick"] = {
+        item = -1,
+        texture = 1,
+        defaultItem = -1,
+        defaultTexture = 1,
+    },
+    ["makeup"] = {
+        item = -1,
+        texture = 1,
+        defaultItem = -1,
+        defaultTexture = 1,
+    },
+    ["ageing"] = {
+        item = -1,
+        texture = 0,
+        defaultItem = -1,
+        defaultTexture = 0,
+    },
+    ["arms"] = {
+        item = 0,
+        texture = 0,
+        defaultItem = 0,
+        defaultTexture = 0,
+    },
+    ["t-shirt"] = {
+        item = 1,
+        texture = 0,
+        defaultItem = 1,
+        defaultTexture = 0,
+    },
+    ["torso2"] = {... (31 KB left)
