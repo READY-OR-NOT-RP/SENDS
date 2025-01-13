@@ -1,0 +1,190 @@
+    ['psnqs'] = { 
+        label = "PSN Qs",
+        weight = 100, 
+        type = "item", 
+        image = "psnqs.png", 
+        unique = false, 
+        useable = true, 
+        shouldClose = true, 
+        description = "A special item."
+    },
+    ['rum'] = { 
+        label = "Rum",
+        weight = 200, 
+        type = "item", 
+        image = "rum.png", 
+        unique = false, 
+        useable = true, 
+        shouldClose = true, 
+        description = "A bottle of rum."
+    },
+    ['orangotang'] = { 
+        label = "Orangotang Drink",
+        weight = 150, 
+        type = "item", 
+        image = "orangotang.png", 
+        unique = false, 
+        useable = true, 
+        shouldClose = true, 
+        description = "A fruity orangotang drink."
+    },
+    ['beer_am'] = { 
+        label = "AM Beer",
+        weight = 250, 
+        type = "item", 
+        image = "beer_am.png", 
+        unique = false, 
+        useable = true, 
+        shouldClose = true, 
+        description = "A bottle of AM beer."
+    },
+    ['wine_white'] = { 
+        label = "White Wine",
+        weight = 350, 
+        type = "item", 
+        image = "wine_white.png", 
+        unique = false, 
+        useable = true, 
+        shouldClose = true, 
+        description = "A bottle of white wine."
+    },
+    ['heroinneedle'] = { 
+        label = "Heroin Needle",
+        weight = 100, 
+        type = "item", 
+        image = "heroinneedle.png", 
+        unique = true, 
+        useable = true, 
+        shouldClose = true, 
+        description = "A needle with heroin."
+    },
+    ['meteorite'] = { 
+        label = "Meteorite",
+        weight = 500, 
+        type = "item", 
+        image = "meteorite.png", 
+        unique = true, 
+        useable = false, 
+        shouldClose = false, 
+        description = "A rare meteorite fragment."
+    },
+    ['whiskey_richards'] = { 
+        label = "Richards Whiskey",
+        weight = 400, 
+        type = "item", 
+        image = "whiskey_richards.png", 
+        unique = false, 
+        useable = true, 
+        shouldClose = true, 
+        description = "A bottle of Richards whiskey."
+    },
+    ['wine_red'] = { 
+        label = "Red Wine",
+        weight = 350, 
+        type = "item", 
+        image = "wine_red.png", 
+        unique = false, 
+        useable = true, 
+        shouldClose = true, 
+        description = "A bottle of red wine."
+    },
+    ['beer_patriot'] = { 
+        label = "Patriot Beer",
+        weight = 250, 
+        type = "item", 
+        image = "beer_patriot.png", 
+        unique = false, 
+        useable = true, 
+        shouldClose = true, 
+        description = "A bottle of Patriot beer."
+    },
+    ['gummy_purple-haze_cbd'] = { 
+        label = "Purple Haze CBD Gummy",
+        weight = 50, 
+        type = "item", 
+        image = "gummy_purple-haze_cbd.png", 
+        unique = false, 
+        useable = true, 
+        shouldClose = true, 
+        description = "A gummy with Purple Haze CBD."
+    },
+    ['brandy_cardi'] = { 
+        label = "Cardi Brandy",
+        weight = 400, 
+        type = "item", 
+        image = "brandy_cardi.png", 
+        unique = false, 
+        useable = true, 
+        shouldClose = true, 
+        description = "A bottle of Cardi Brandy."
+    },
+    ['matchabobatea'] = { 
+        label = "Matcha Boba Tea",
+        weight = 250, 
+        type = "item", 
+        image = "matchabobatea.png", 
+        unique = false, 
+        useable = true, 
+        shouldClose = true, 
+        description = "A refreshing matcha boba tea."
+    },
+    ['baggedheroin'] = { 
+        label = "Bagged Heroin",
+        weight = 100, 
+        type = "item", 
+        image = "baggedheroin.png", 
+        unique = true, 
+        useable = false, 
+        shouldClose = false, 
+        description = "A bag of heroin."
+    },
+    ['gummy_white-widow_cbd'] = { 
+        label = "White Widow CBD Gummy",
+        weight = 50, 
+        type = "item", 
+        image = "gummy_white-widow_cbd.png", 
+        unique = false, 
+        useable = true, 
+        shouldClose = true, 
+        description = "A gummy with White Widow CBD."
+    },
+    ['bluebbobatea'] = { 
+        label = "Blue Boba Tea",
+        weight = 250, 
+        type = "item", 
+        image = "bluebbobatea.png", 
+        unique = false, 
+        useable = true, 
+        shouldClose = true, 
+        description = "A refreshing blue boba tea."
+    },
+    ['ramunepapple'] = { 
+        label = "Ramune Pineapple",
+        weight = 200, 
+        type = "item", 
+        image = "ramunepapple.png", 
+        unique = false, 
+        useable = true, 
+        shouldClose = true, 
+        description = "A Ramune pineapple-flavored soda."
+    },
+    ['tequila'] = { 
+        label = "Tequila",
+        weight = 300, 
+        type = "item", 
+        image = "tequila.png", 
+        unique = false, 
+        useable = true, 
+        shouldClose = true, 
+        description = "A bottle of tequila."
+    },
+    ['brandy_cognac'] = { 
+        label = "Cognac Brandy",
+        weight = 400, 
+        type = "item", 
+        image = "brandy_cognac.png", 
+        unique = false, 
+        useable = true, 
+        shouldClose = true, 
+        description = "A bottle of Cognac brandy."
+    }
