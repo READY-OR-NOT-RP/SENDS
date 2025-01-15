@@ -1,4 +1,10 @@
-replace QBCore = nil with: QBCore = exports['qb-core']:GetCoreObject()
+local QBCore = exports['qb-core']:GetCoreObject()
+
+local QBCore = exports['qb-core']:GetCoreObject()
+
+dependencies { 
+    'qb-core', 
+}
 
 You can use the provide statement in the fxmanifest.lua file. It will automatically replace the previous statement, so there’s no need to rename it. For example, you can use provide 'qb-inventory' to specify that your resource provides the qb-inventory functionality.
 
