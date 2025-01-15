@@ -1,4 +1,5 @@
 local QBCore = exports['qb-core']:GetCoreObject()
 
-dependencies { 'qb-core' }
-
+dependencies { 
+    'qb-core', 
+}
